@@ -14,6 +14,7 @@
 		23808DD31F6E7D200013391C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23808DD11F6E7D200013391C /* LaunchScreen.storyboard */; };
 		23808DDE1F6E7D200013391C /* ggT_und_kgVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23808DDD1F6E7D200013391C /* ggT_und_kgVTests.swift */; };
 		23808DE91F6E7D200013391C /* ggT_und_kgVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23808DE81F6E7D200013391C /* ggT_und_kgVUITests.swift */; };
+		23808DF71F6E7D4C0013391C /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23808DF61F6E7D4C0013391C /* common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		23808DE41F6E7D200013391C /* ggT und kgVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ggT und kgVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23808DE81F6E7D200013391C /* ggT_und_kgVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ggT_und_kgVUITests.swift; sourceTree = "<group>"; };
 		23808DEA1F6E7D200013391C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23808DF61F6E7D4C0013391C /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
+		23808DF81F6EA07C0013391C /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		23808DBC1F6E7D200013391C = {
 			isa = PBXGroup;
 			children = (
+				23808DF61F6E7D4C0013391C /* common.swift */,
 				23808DC71F6E7D200013391C /* ggT und kgV */,
 				23808DDC1F6E7D200013391C /* ggT und kgVTests */,
 				23808DE71F6E7D200013391C /* ggT und kgVUITests */,
@@ -101,6 +105,7 @@
 				23808DCA1F6E7D200013391C /* ViewController.swift */,
 				23808DCC1F6E7D200013391C /* Main.storyboard */,
 				23808DCF1F6E7D200013391C /* Assets.xcassets */,
+				23808DF81F6EA07C0013391C /* AppIcon.appiconset */,
 				23808DD11F6E7D200013391C /* LaunchScreen.storyboard */,
 				23808DD41F6E7D200013391C /* Info.plist */,
 			);
@@ -261,6 +266,7 @@
 			files = (
 				23808DCB1F6E7D200013391C /* ViewController.swift in Sources */,
 				23808DC91F6E7D200013391C /* AppDelegate.swift in Sources */,
+				23808DF71F6E7D4C0013391C /* common.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,12 +433,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4R4MNUFZW;
 				INFOPLIST_FILE = "ggT und kgV/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cgehring.ggT-und-kgV";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -441,12 +449,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4R4MNUFZW;
 				INFOPLIST_FILE = "ggT und kgV/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cgehring.ggT-und-kgV";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
